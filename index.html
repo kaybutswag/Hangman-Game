@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head> 
+	<meta charset="UTF-8">
+	<title>Nicolas Cage Hangman</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911|Sedgwick+Ave+Display" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+	<header class="masthead">The Wicker Hanged Man</header>
+
+	<div class="wrapper">
+		<section class="container main-container">
+			<div class="row">
+				<div class="col-4 imgcol">
+					<img class="gallows img-fluid" src="assets/images/gallows.svg" alt="pictbd">
+					<h3><span id="chances"><strong>?</strong></span> :guesses until the Kiss of Death</h3>
+					<h3>Times You've Been a True American Hero: <span id="winCounter">0</span></h3>
+				</div>
+
+				<div class="col-8 gamepanel">
+					<h1>Can You Save This National Treasure?</h1>
+
+					<h3>(Push Any Key to Start Your Quest)</h3>
+
+					<section class="game">
+
+						<h2>What's Nicky's Favorite Film Now?</h2>
+						<div class="answerContainer"><span id="answer"><i class=" badBoxContent2 fa fa-commenting-o fa-pulse fa-2x"></i></span>
+
+					</section>
+
+					<section class="oldGuesses">
+						<p><span id="boxLabel">...</span></p>
+						<div class="badBox"><span class="badBoxContent">Waiting on you!</span></div>
+					</section>
+				</div>
+			</div>
+		</section>
+		<div class="push"></div>
+	</div>
+
+	<footer> 
+		<div class="container"> 
+			Copyright &copy; 2018 Katharine Wagner. Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+		</div>	
+	</footer>
+
+<script src="assets/javascript/game.js"></script>
+
+</body>
+</html>
+<!-- split with array, randomize -->

@@ -1,0 +1,129 @@
+*{
+	box-sizing: border-box;
+	}
+
+body{
+	font-family:'Goudy Bookletter 1911', serif;
+	font-size: 60px;
+	line-height: 60px;
+	background-image: url("../images/nicolas_cage_by_weirdfacebackgrounds-d8pqhbp.jpg"); 
+    background-size: cover;
+}
+
+h1,h2,h3{
+	text-align: center;
+}
+
+h3, h4{
+	font-size: 20px;
+}
+
+
+h2{
+	font-family: 'Sedgwick Ave Display', cursive;
+	margin-top: 40px;
+}
+
+.masthead{
+	font-family: 'Sedgwick Ave Display', cursive;
+	background-color: black;
+	color: white;
+	text-align: center;
+	margin-bottom: 40px;
+	border-bottom: 4px solid white;
+	padding: 20px;
+
+}
+
+.imgcol{
+	padding: 15px;
+	margin-bottom: 20px;
+	
+}
+
+.gamepanel{
+	padding: 30px;
+	border-left: 2px dotted white;
+	margin-bottom: 20px;
+}
+
+.gallows{
+	height: 400px;
+}
+
+#chances{
+	color:red;
+	font-size: 24px;
+}
+
+#winCounter{
+	color:green;
+	font-size: 24px;
+}
+
+.main-container{
+	background-color: black;
+	margin: 0 auto;
+	color: white;
+	opacity: 0.8;
+}
+
+.answerContainer{
+	margin:auto;
+	text-align: center;
+}
+
+.oldGuesses{
+	margin:auto;
+	text-align: center;
+
+}
+
+#answer{
+	font-size: 30px;
+	line-height: 30px;
+}
+
+.oldGuesses p{
+	font-size: 20px;
+}
+
+.badBox{
+	border: 1px solid white;
+	border-radius: 25px;
+}
+
+footer{
+  font-family:'Goudy Bookletter 1911', serif;
+  padding: 20px 0;
+  clear: both;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  background: black;
+  border-top: 8px solid white;
+  margin-top: 20px;
+}
+
+/* sticky footer styling */
+
+/* https://css-tricks.com/snippets/css/sticky-footer/ */
+
+html,
+body {
+  height: 100%;
+}
+
+.wrapper {
+  height: auto !important;
+  height: 100%;
+  min-height: 100%;
+  margin: 0 auto -105px;
+}
+
+footer,
+.push {
+  height: 105px;
+}
+
+/* end sticky footer styling */
